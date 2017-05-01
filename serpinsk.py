@@ -1,4 +1,5 @@
 import numpy as np
+import random as rd
 import matplotlib.pyplot as plt
 
 np.random.seed(123)
@@ -12,13 +13,7 @@ p = np.random.rand(2)
 x, y = np.zeros(5000), np.zeros(5000)
 for i in range(5000):
 
-	r = np.random.choice([1 ,2, 3])
-	if r == 1:
-		s = a
-	if r == 2:
-		s = b
-	if r == 3:
-		s = c
+	s = rd.choice([a, b, c])
 
 	p1 = [(p[0] + s[0]) / 2, (p[1] + s[1]) / 2]
 		
