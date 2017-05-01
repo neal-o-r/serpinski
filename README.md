@@ -1,5 +1,5 @@
 # Serpinksi
----
+
 
 An example of an iterated function system that generates the Serpinski Triangle.
 
